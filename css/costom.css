@@ -1,3 +1,9 @@
+.headerBackimg {
+  background-image: url("../img/background/bimg1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
 .portfolio-title {
   text-align: center;
   font-size: 1.2em;
