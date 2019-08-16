@@ -1,9 +1,18 @@
+.navbar-brand span {
+  color: #0093cb;
+}
 .headerBackimg {
   background-image: url("../img/background/bimg1.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  
+  
+}
+@media (min-width: 768px) {
+  .headerBackimg {
+    height: 70vh;
+  }
 }
 .portfolio-title {
   text-align: center;
