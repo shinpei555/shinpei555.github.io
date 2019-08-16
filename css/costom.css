@@ -1,0 +1,55 @@
+.portfolio-title {
+  text-align: center;
+  font-size: 1.2em;
+}
+/* Worksモーダル */
+.modal-img {
+  width: 250px;
+}
+.modal-info {
+  
+}
+.lists {
+
+}
+.list {
+  list-style: none;
+  display: flex;
+  border-bottom: solid #ccc 1px;
+  margin-top: 12px;
+}
+.title {
+  display: block;
+  width: 150px;
+  text-align: left;
+}
+.content {
+  text-align: left;
+  max-width: 500px;
+  display: block;
+}
+.content-img {
+  height: 40px;
+  margin: 5px;
+}
+/* プロフィール */
+.profileTitle {
+  text-align: center;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.profileText {
+  font-size: 1em;
+  line-height: 2em;
+}
+.portfolioImgLists {
+  list-style: none;
+  display: flex;
+}
+.portfolioImgLists li {
+  
+}
+.portfolioImg {
+  height: 80px;
+  margin: 5px;
+}
