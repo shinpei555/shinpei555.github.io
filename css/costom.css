@@ -1,29 +1,35 @@
+/* ナビゲーション */
 .navbar-brand span {
   color: #0093cb;
 }
+/* ヘッダーイメージ */
 .headerBackimg {
   background-image: url("../img/background/bimg1.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  
-  
 }
 @media (min-width: 768px) {
   .headerBackimg {
-    height: 70vh;
+    height: 60vh;
   }
 }
 .portfolio-title {
   text-align: center;
   font-size: 1.2em;
 }
+/* Works */
+.page-section-info {
+  font-size: 14px;
+  color: #7f7f7f;
+  margin-bottom: 25px;
+}
 /* Worksモーダル */
 .modal-img {
   width: 250px;
 }
 .modal-info {
-  
+
 }
 .lists {
 
@@ -38,6 +44,16 @@
   display: block;
   width: 150px;
   text-align: left;
+}
+.content-link {
+  text-align: left;
+  max-width: 500px;
+  display: block;
+  color: #007ebe;
+}
+.content-link:hover {
+  opacity: 0.8;
+  color: #007ebe;
 }
 .content {
   text-align: left;
@@ -63,9 +79,16 @@
   display: flex;
 }
 .portfolioImgLists li {
-  
+
 }
 .portfolioImg {
   height: 80px;
   margin: 5px;
+}
+/* フッター */
+.footer {
+  background-image: url("../img/background/bimg1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
