@@ -85,6 +85,10 @@
   height: 80px;
   margin: 5px;
 }
+.mail-address {
+  font-size: 20px;
+  border-bottom: solid #0093cb 3px;
+}
 /* フッター */
 .footer {
   background-image: url("../img/background/bimg1.jpg");
