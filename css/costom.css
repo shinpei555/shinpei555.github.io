@@ -69,11 +69,20 @@
   text-align: center;
   font-size: 1.2em;
   margin-bottom: 20px;
+  border-bottom: solid #0093cb 2px;
 }
 .profileText {
   font-size: 1em;
   line-height: 2em;
 }
+/* @media (min-width: 992px) and (max-width: 768px) {
+  .portfolioImgListLeft {
+    float: left;
+  }
+  .portfolioImgListRight {
+    float: right;
+  }
+} */
 .portfolioImgLists {
   list-style: none;
   display: flex;
